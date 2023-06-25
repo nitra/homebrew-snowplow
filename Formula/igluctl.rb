@@ -6,7 +6,7 @@ class Igluctl < Formula
   sha256 "df27c67266e99dceb05ff7b59a8a16de5ac40187d88c97ffacfa81d90246bec0"
   license "Apache-2.0"
 
-  depends_on "java"
+  # depends_on "java"
 
   def install
     bin.install "igluctl"
